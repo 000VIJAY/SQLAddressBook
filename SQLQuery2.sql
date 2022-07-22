@@ -22,4 +22,6 @@ create table Addressbook
 			('Rohal','Goyal','pratap nagar','Delhi','New Delhi',534342,76523254234,'rohan@gmail.com')
 
 	UPDATE Addressbook Set  address = 'nalanda' , City = 'Hilsa' where FirstName = 'Vijay' ;
+
+	delete from Addressbook where FirstName = 'Rahul';
 	SELECT * FROM Addressbook   
