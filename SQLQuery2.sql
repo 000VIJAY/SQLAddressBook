@@ -24,4 +24,7 @@ create table Addressbook
 	UPDATE Addressbook Set  address = 'nalanda' , City = 'Hilsa' where FirstName = 'Vijay' ;
 
 	delete from Addressbook where FirstName = 'Rahul';
-	SELECT * FROM Addressbook   
+	SELECT * FROM Addressbook 
+
+	Select * From Addressbook where City = 'Patna';
+	Select * From Addressbook where State = 'New Delhi';
