@@ -35,3 +35,9 @@ create table Addressbook
 
 	SELECT * FROM Addressbook Where City = 'Patna'
 	Order by FirstName ASc; 
+
+	Alter table AddressBook ADD type varchar(30);
+	SELECT * FROM Addressbook;
+	UPDATE Addressbook Set type = 'Friend' where FirstName = 'Vijay' or FirstName = 'Nitish' ;
+	UPDATE Addressbook Set type = 'Family' where FirstName = 'Rahul';
+	Select * From Addressbook where type = 'Friend';
