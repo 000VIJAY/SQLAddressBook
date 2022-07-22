@@ -24,7 +24,6 @@ create table Addressbook
 	UPDATE Addressbook Set  address = 'nalanda' , City = 'Hilsa' where FirstName = 'Vijay' ;
 
 	delete from Addressbook where FirstName = 'Rahul';
-	SELECT * FROM Addressbook 
 
 	Select * From Addressbook where City = 'Patna';
 	Select * From Addressbook where State = 'New Delhi';
@@ -33,3 +32,6 @@ create table Addressbook
 	SELECT COUNT(State) From Addressbook;
 	SELECT COUNT(City)  From Addressbook where City = 'Patna';
 	SELECT COUNT(State) From Addressbook where State = 'New Delhi';
+
+	SELECT * FROM Addressbook Where City = 'Patna'
+	Order by FirstName ASc; 
