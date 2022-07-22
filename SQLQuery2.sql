@@ -11,4 +11,13 @@ create table Addressbook
 	PhoneNumber BigInt,
 	Email		varchar(50)
 	)
-	SELECT * FROM Addressbook;
+	Insert into Addressbook
+	(
+	[FirstName] ,[LastName],[Address] ,[City],[State],[zip],[PhoneNumber],[Email]
+	)
+	Values
+			('Vijay','kumar','rajpath','Patna','Bihar',8000001,87654321287,'vijya87348@gmail.com'),
+			('Nitish','kumar','gandhi maidan','Patna','Bihar', 800005,654321287,'vijya87348@gmail.com'),
+			('Rahul','Yadav','Rohini','Delhi','New Delhi',534342,43523254234,'rahul@gmail.com'),
+			('Rohal','Goyal','pratap nagar','Delhi','New Delhi',534342,76523254234,'rohan@gmail.com')
+	SELECT * FROM Addressbook   
