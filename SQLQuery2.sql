@@ -41,3 +41,7 @@ create table Addressbook
 	UPDATE Addressbook Set type = 'Friend' where FirstName = 'Vijay' or FirstName = 'Nitish' ;
 	UPDATE Addressbook Set type = 'Family' where FirstName = 'Rahul';
 	Select * From Addressbook where type = 'Friend';
+
+	Select COUNT(type) From Addressbook 
+	Select COUNT (type) From Addressbook where type = 'Friend';
+	Select * From Addressbook
